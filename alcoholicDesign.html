@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALCOHOLIC</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="card">
+        <div id="contact">
+            <a href="#"><i class='fas fa-caret-right'></i>&nbsp;&nbsp;CONTACT</a>
+            <a href="#"><i class='fas fa-caret-right'></i>&nbsp;&nbsp;SITEMAP</a>
+        </div>
+        <div id="sign">
+            <a href="#">SIGN OUT</a>
+            <a href="#"><i class='fas fa-user'></i>&nbsp;&nbsp;A.ADMIN</a>
+            <label for="">LANGUAGE</label>
+            <select name="language" id="language">
+                <option value="english">ENGLISH</option>
+                <option value="japan">JAPANESE</option>
+                <option value="chinese">CHINESE</option>
+                <option value="korea">KOREA</option>
+            </select>
+            <label for="">CURRENCY</label>
+            <select name="usd" id="usd">
+                <option value="A">A</option>
+                <option value="B">B</option>
+                <option value="C">C</option>
+            </select>
+        </div>
+    </div>
+    <div class="titleLabel">
+        <section>
+            <h1 style="text-align: center;margin-bottom: 0px;font-weight: bolder;">ALCOHOLIC</h1>
+            <h4 style="text-align: center;margin-top: 0px;color: gray;">BEVERAGE STORE</h4>
+        </section>
+        <section class="searchGroup">
+            <input type="text" id="search" placeholder="search...">
+            <button type="submit"><i class="fa fa-search"></i></button>
+        </section>
+        <section class="searchGroup">
+            <h3>Call us now:1(234)567-9842</h3>
+        </section>
+    </div>
+    
+    <nav class="navbar navbar-inverse">
+        <ul class="nav navbar-nav" style="margin-left: 5%;margin-right: 5%;">
+          <li><a href="#">LIQUOR</a></li>
+          <li><a href="#">SPIRITS</a></li>
+          <li><a href="#">LIQUEURS</a></li>
+          <li><a href="#">WINE</a></li>
+          <li><a href="#">SINGLE MALT SCOTCH</a></li>
+          <li><a href="#">BOURBON</a></li>
+          <li><a href="#">WHISKEY</a></li>
+          <li><a href="#">TEQUILA</a></li>
+          <li><a href="#">VODKA</a></li>
+          <li><a href="#">RUM</a></li>
+          <li style="margin-left: 132px;"><i class="fa fa-shopping-cart" id="cart"></i></li>
+        </ul>
+    </nav>
+    <div class="content">
+        <img src="images/banner.jpg" alt="banner" id="bannerImg">
+        <div id="glassGroup">
+            <div class="card-img">
+                <img src="images/glassone.jpg">
+                <P>WHISKEY</P>
+            </div>
+            <div class="card-img">
+                <img src="images/glasstwo.jpg">
+                <P>TEQUILA</P>
+            </div>
+            <div class="card-img">
+                <img src="images/glassthree.jpg">
+                <P>VODKA</P>
+            </div>
+            <div class="card-img">
+                <img src="images/glassfour.jpg">
+                <P>WINE</P>
+            </div>
+        </div>  
+        <div id="titleBar">
+            <a href="#">NEW ARRIVALS</a>
+            <a href="#">POPULAR</a>
+            <a href="#">BEST SELLERS</a>
+        </div> 
+        <div id="displayAll">
+            <div class="singleCard">
+                <span>-5%</span>
+                <img src="images/tequilaSilver.jpg" alt="bottle-one">
+                <section>
+                    <span class="sale">Sale!</span> <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$62.69</label><del>$65.99</del>
+                <p>1800 Tequila Silver</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/beefeater.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$58.99</label>
+                <p>Beefeater Gin</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>-8%</span>
+                <img src="images/bellChristmas.jpg" alt="bottle-one">
+                <section>
+                    <span class="sale">Sale!</span> <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$72.67</label><del>$78.99</del>
+                <p>Bell's Christmas Decanter 1989</p>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/benromach.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$87.99</label>
+                <p>Benromach 30 Year Old</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/branaire.png" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$56.87</label>
+                <p>Chateau Branaire Ducru 2009</p>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/chateau.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$63.99</label>
+                <p>Chateau Du Tariquet Classique</p>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/hennessy.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$74.99</label>
+                <p>Hennessy Paradis Rare Cognac</p>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>-12%</span>
+                <img src="images/hine.jpg" alt="bottle-one" height="140px" width="90px">
+                <section>
+                    <span class="sale">Sale!</span> <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$44.88</label><del>$51.00</del>
+                <p>Hine Triomphe Grande...</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>-5%</span>
+                <img src="images/jack.jpg" alt="bottle-one">
+                <section>
+                    <span class="sale">Sale!</span> <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$50.34</label><del>$52.99</del>
+                <p>Jack Daniels Old No 7</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>-13%</span>
+                <img src="images/martell.jpg" alt="bottle-one">
+                <section>
+                    <span class="sale">Sale!</span> <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$74.81</label><del>$85.99</del>
+                <p>Martell Cordon Bleu</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/krakan.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$69.87</label>
+                <p>The Kraken Black Spiced Rum</p>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+            <div class="singleCard">
+                <span>&nbsp;&nbsp;&nbsp;</span>
+                <img src="images/wild.jpg" alt="bottle-one">
+                <section>
+                    <br>
+                    <span class="new">New!</span>
+                </section>
+                <label>$73.99</label>
+                <p>Wild Turkey Kentucky...</p> <br>
+                <button class="add"><a href="#">ADD TO CART</a></button>
+            </div>
+        </div>
+        <div id="followGroup">
+            <div class="follow">
+                <img src="images/h.jpg" alt="page image">
+            </div>
+            <div class="follow">
+                <div class="social">
+                    <a href="#"><i class="fa fa-truck"></i></a>
+
+                    <div class="textGroup">
+                        <h4>Lorem ipsum dolor sit</h4>
+                        <p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolor.</p> 
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa fa-phone"></i></a>
+                    
+                    <div class="textGroup">
+                        <h4>Excepteur sint</h4>
+                        <p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolor.</p>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="#"><i class="fa fa-credit-card"></i></a>
+                    
+                    <div class="textGroup">
+                        <h4>Occaecat cupidatat non</h4>
+                        <p>Lorem ipsum dolor sit amet conse ctetur voluptate velit esse cillum dolor.</p>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="follow textGroup">
+                <br>
+               <h4>Custom Block</h4>
+                <p style="font-weight: bolder;">Lorem ipsum dolor sit amet conse ctetu</p>
+                <p>Lorem ipsum dolor sit amet conse cteturLorem ipsum dolor sit amet conse cteturLorem ipsum dolor Lorem ipsum dolor sit 
+                    amet conse ctetursit amet conse ctetur</p>
+            </div>
+        </div>
+        <div id="contactGroup">
+            <div id="contactLabel">
+                <h1 style="color: white;margin-bottom: 0px;font-weight: bolder;">ALCOHOLIC</h1>
+                <h4 style="color: gray;;margin-top: 0px;">BEVERAGE STORE</h4>
+                <p>My company, 4578 Marmora Road Blasgow D04 89GR</p>
+                <h5 style="font-weight: bold;color: grey;">Call us now:1(234)567-9842</h5>
+                <p style="color: red;font-size: 10px;">EMAIL:INFO@DEMOLINK.ORG</p>
+            </div>
+            <div id="ulGroup">
+                <div class="row">
+                    <h4>INFORMATION</h4>
+                    <ul>
+                        <li><a href="#">SPECIALS</a></li>
+                        <li><a href="#">NEW PRODUCTS</a></li>
+                        <li><a href="#">BEST SELLERS</a></li>
+                        <li><a href="#">OUR STORES</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                        <li><a href="#">PAGES CONFIGURATION</a></li>
+                        <li><a href="#">SITEMAP</a></li>
+                    </ul>
+                </div>
+                <div class="row">
+                    <h4>MY ACCOUNT</h4>
+                    <ul>
+                        <li><a href="#">MY ORDERS</a></li>
+                        <li><a href="#">MY MERCHANDISE RETURNS</a></li>
+                        <li><a href="#">MY CREDIT SLIPS</a></li>
+                        <li><a href="#">MY ADDRESSES</a></li>
+                        <li><a href="#">MY PERSONAL INFO</a></li>
+                        <li><a href="#">VOUCHERS</a></li>
+                        <li><a href="#">SING OUT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <p style="padding: 4px;color: grey;font-weight: bold;"><i class="fa fa-copyright"></i>2014 Ecommerce Software by PrestaShop</p>
+        <br>
+    </div>
+ 
+</body>
+</html>
